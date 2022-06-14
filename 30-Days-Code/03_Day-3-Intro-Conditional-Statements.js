@@ -1,5 +1,5 @@
 function main() {
-    // Converts (parses) an argument of type string and returns an integer of the specified base.
+    // parseInt(): Converts (parseInt) an argument of type string and returns an integer of the specified base.
     var N = parseInt(readLine().trim(), 10);
     
 if (N % 2 === 0) {
