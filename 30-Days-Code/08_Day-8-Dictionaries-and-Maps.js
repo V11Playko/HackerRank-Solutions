@@ -3,6 +3,7 @@
 
     let inputs = parseInt(input[0]);
 
+    // Map: The map() method creates a new array with the results of the call to the indicated function applied to each of its elements.
     let map = new Map();
     for (let i = 1; i <= inputs; i++) {
         // Set: The Set object allows you to store single values of any type, whether they are primitive values or object references.
