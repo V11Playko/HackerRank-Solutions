@@ -5,6 +5,7 @@
 
     let map = new Map();
     for (let i = 1; i <= inputs; i++) {
+        // Set: The Set object allows you to store single values of any type, whether they are primitive values or object references.
         map.set(input[i].split(" ")[0], input[i].split(" ")[1])
     }
 
