@@ -1,4 +1,7 @@
-
+// Something basic to learn factorial in javascript
+//
+//
+// https://lineadecodigo.com/javascript/factorial-javascript/
 function factorial(n) {
     if(n <= 1){
         return 1;
