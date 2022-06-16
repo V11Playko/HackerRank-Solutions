@@ -1,4 +1,4 @@
-// readLine: The Readline module provides a way to read a stream of data, one line at a time.
+// readLine: The Readline module does what it says on the box: it reads a line of input from the terminal.
 
 let i2 = +(readLine());
 let d2 = +(readLine());
