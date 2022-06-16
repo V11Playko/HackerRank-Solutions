@@ -13,6 +13,7 @@ class Student extends Person {
             this.scores.forEach(element => {
                 sum += element;
             })
+            // Math.ceil: The Math.ceil() function returns the closest greater than or equal to a given number.
             const average = Math.ceil(sum/this.scores.length);
             
             
