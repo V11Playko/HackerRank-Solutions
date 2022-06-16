@@ -1,6 +1,7 @@
 function main() {
     var arr = [];
     for(var arr_i = 0;arr_i < 6; arr_i++){
+        // readLine: The Readline module does what it says on the box: it reads a line of input from the terminal.
        arr[arr_i] = readLine().split(' ');
        arr[arr_i] = arr[arr_i].map(Number);
     }
