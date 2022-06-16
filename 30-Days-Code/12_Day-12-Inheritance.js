@@ -1,5 +1,6 @@
 class Student extends Person {
     constructor(firstName,lastName,idNumber,scores){
+        // super: The super keyword is used to access and call functions of an object's parent.
         super(firstName, lastName);
         this.firstName = firstName;
         this.lastName = lastName;
@@ -8,6 +9,7 @@ class Student extends Person {
         this.calculate = () => {
             
             let sum = 0;
+            // forEach: The forEach() method executes the indicated function once for each element of the array.
             this.scores.forEach(element => {
                 sum += element;
             })
