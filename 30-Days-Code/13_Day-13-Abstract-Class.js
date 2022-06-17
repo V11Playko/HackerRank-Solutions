@@ -10,7 +10,7 @@ class MyBook extends Book{
     **/
     // Write your constructor here
     constructor(title, author, price) {
-        
+        // super: The super keyword is used to access and call functions of an object's parent.
         super(title, author);
         this.price = price;
     }
