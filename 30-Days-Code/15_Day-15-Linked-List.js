@@ -14,6 +14,7 @@ this.insert=function(head,data){
         head.next = newNode;
     } else {
         var next = head.next;
+        // while: Creates a loop that executes a specified statement as long as a certain condition evaluates to true. This condition is evaluated before executing the statement.
         while(next.next) {
             next = next.next
         }
