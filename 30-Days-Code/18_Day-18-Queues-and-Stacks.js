@@ -17,6 +17,7 @@ function Solution(){
         queue.push(n)
     }
     this.dequeueCharacter = () => {
+        // shift: The shift() method removes the first element from the array and returns it. This method modifies the length of the array.
         return queue.shift();
     }
   
