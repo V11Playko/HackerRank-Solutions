@@ -9,6 +9,7 @@ function Solution(){
         stack.push(n);
     }
     this.popCharacter = () => {
+        // pop: The pop() method removes the last element from an array and returns it. This method changes the length of the array.
         return stack.pop();
     }
     
