@@ -1,4 +1,4 @@
-
+// This is the simplest way I found to solve this algorithm, although there are many ways to solve the same algorithm
 
 var queue = [root];
 while (queue.length > 0) {
