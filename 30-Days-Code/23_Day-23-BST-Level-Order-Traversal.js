@@ -7,6 +7,7 @@ while (queue.length > 0) {
   // shift: The shift() method removes the first element from the array and returns it. This method modifies the length of the array.
   write(node.data + " ");
   if(node.left) {
+    // push: The push() method adds one or more elements to the end of an array and returns the new length of the array.
    queue.push(node.left);
   }
   if (node.right) {
