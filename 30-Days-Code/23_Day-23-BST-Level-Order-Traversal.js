@@ -4,6 +4,7 @@ var queue = [root];
 while (queue.length > 0) {
     // while: Creates a loop that executes a specified statement as long as a certain condition evaluates to true. This condition is evaluated before executing the statement.
   var node = queue.shift();
+  // shift: The shift() method removes the first element from the array and returns it. This method modifies the length of the array.
   write(node.data + " ");
   if(node.left) {
    queue.push(node.left);
