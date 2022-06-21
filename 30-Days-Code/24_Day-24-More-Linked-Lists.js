@@ -13,5 +13,6 @@ this.removeDuplicates=function(head){
         prev = current;
         current = current.next;
     }
+    // join: The join() method joins all the elements of an array (or an array-like object) into a string and returns this string.
     console.log(arr.join(' '));
 }
