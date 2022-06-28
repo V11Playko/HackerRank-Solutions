@@ -1,6 +1,7 @@
 function processData(input) {
     // split: The split() method splits an object of type String into an array (vector) of strings by separating the string into substrings.
     var arr = input.split('\n');
+    // length: The length property of a String object represents the length of a string, in units of UTF-16 encoding.
     for (var i = 1; i < arr.length; i++){
       var n = arr[i];
       if(isPrime(n)){
