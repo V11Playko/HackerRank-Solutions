@@ -1,8 +1,17 @@
 # HackerRank-Solutions
 
-Here you will find solutions to different algorithm problems of the "HackerRank" platform
+
+**This project made by Heinner Vega** 
+
+
+Here you will find solutions to different algorithm problems of the "HackerRank" platform.
+
+
+It can be differentiated since in the problems (Solved) you can find the concepts that can help you understand more about the operation of the algorithm
 
 # 30 DAYS OF CODE JAVASCRIPT(NODEJS)
+
+
 
 | Day |                                                Challenge                                              				  |                                                                                           Solution                                                                                                                              									    |				 	  Support					               |
 |:---:|:---------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------:|
