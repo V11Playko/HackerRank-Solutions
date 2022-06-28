@@ -1,6 +1,7 @@
 function main() {
     var t = parseInt(readLine());
     for(var a0 = 0; a0 < t; a0++){
+        // split: The split() method splits an object of type String into an array (vector) of strings by separating the string into substrings.
         var n_temp = readLine().split(' ');
         var n = parseInt(n_temp[0]);
         var k = parseInt(n_temp[1]);
