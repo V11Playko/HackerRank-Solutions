@@ -1,4 +1,5 @@
 function main() {
+    // readLine: The node:readline module provides an interface for reading data from a Readable stream (such as process.stdin) one line at a time.
     var t = parseInt(readLine());
     for(var a0 = 0; a0 < t; a0++){
         // split: The split() method splits an object of type String into an array (vector) of strings by separating the string into substrings.
