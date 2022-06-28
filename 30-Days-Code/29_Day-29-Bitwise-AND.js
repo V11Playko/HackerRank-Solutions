@@ -8,6 +8,7 @@ function main() {
         var k = parseInt(n_temp[1]);
         function findMaxPoss(arr) {
             var res = 0;
+            // length: The length property of a String object represents the length of a string, in units of UTF-16 encoding.
             for(var i = 0; i < arr.length; i++){
                 for(var j = i + 1; j < arr.length; j++){
                     var ans = arr[i] & arr[j];
