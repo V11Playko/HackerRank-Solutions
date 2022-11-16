@@ -8,9 +8,9 @@ Any questions or queries can write to my profile.
 
 # 30 DAYS OF CODE JAVASCRIPT(NODEJS)
 
+**This project made by Heinner Vega**
 
-
-| Day |                                                Challenge                                              				  |                                                                                           Solution                                                                                                                              									    |				 	  Support					               |
+| Day |                                                Challenge                                              				  |                                                                                           Solution                                                                                                                              									    |						               |
 |:---:|:---------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------------------------------------------------------------:|
 |  0  | [Hello, World](https://www.hackerrank.com/challenges/30-hello-world)                                  				  | [Day0HelloWorld.js](https://github.com/V11Playko/HackerRank-Solutions/tree/master/30-Days-Code/00_Day-0-Hello-World.js)               									    |														       |
 |  1  | [Data Types](https://www.hackerrank.com/challenges/30-data-types)                                     				  | [Day1DataTypes.js](https://github.com/V11Playko/HackerRank-Solutions/tree/master/30-Days-Code/01_Day-1-Data-Types.js)                									    | 														       |
