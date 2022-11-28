@@ -1,7 +1,7 @@
 package Java.ThirtyDaysCodeJava;
 import java.io.*;
 import java.util.*;
-
+/*
 public class Day4ClassVsInterface {
     private int age;
 
@@ -45,4 +45,4 @@ public class Day4ClassVsInterface {
         }
         sc.close();
     }
-}
+}*/
