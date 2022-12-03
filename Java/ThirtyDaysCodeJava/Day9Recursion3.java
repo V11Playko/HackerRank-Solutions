@@ -23,7 +23,7 @@ public class Day9Recursion3 {
          * The function accepts INTEGER n as parameter.
          */
 
-        public static int factorial(int n) {
+        static int factorial(int n) {
             // Write your code here
             if (n <= 1) {
                 return 1;
