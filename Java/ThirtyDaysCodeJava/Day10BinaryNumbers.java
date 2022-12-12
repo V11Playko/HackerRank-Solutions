@@ -20,24 +20,19 @@ public class Day10BinaryNumbers {
 
         int n = Integer.parseInt(bufferedReader.readLine().trim());
 
-        int binaryNums = 0;
-        int count =0;
+        String s = Integer.toBinaryString(n);
+        int count = 0;
+        int max = 0;
 
-
-        while(n > 0){
-
-            int i = n%2;
-
-            if(i == 0){
-                count=0;
-            }
-            else {
+        for (int i = 0; i < s.length(); i++) {
+            if (s.charAt(i) == '0') {
+                count = 0;
+            } else {
                 count++;
-                binaryNums = Math.max(binaryNums, count);
+                max = Math.max(count, max);
             }
-            n/=2;
         }
-        System.out.println(binaryNums);
+        System.out.print(max);
         bufferedReader.close();
     }
 }
